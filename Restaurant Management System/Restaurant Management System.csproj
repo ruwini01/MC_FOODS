@@ -36,10 +36,16 @@
     <Reference Include="Guna.UI">
       <HintPath>..\..\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 2.0\Guna.UI.dll</HintPath>
     </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\VP\RMS\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -72,6 +78,19 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPOS.Designer.cs">
+      <DependentUpon>frmPOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProducts.Designer.cs">
+      <DependentUpon>frmProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Functions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -82,6 +101,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPOS.resx">
+      <DependentUpon>frmPOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProducts.resx">
+      <DependentUpon>frmProducts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

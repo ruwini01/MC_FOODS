@@ -49,3 +49,19 @@ C:\Users\Ruwini Tharanga\Desktop\Restaurant_Management_System\Restaurant Managem
 C:\Users\Ruwini Tharanga\Desktop\Restaurant_Management_System\Restaurant Management System\bin\Debug\Restaurant Management System.exe
 C:\Users\Ruwini Tharanga\Desktop\Restaurant_Management_System\Restaurant Management System\bin\Debug\Restaurant Management System.pdb
 C:\Users\Ruwini Tharanga\Desktop\Restaurant_Management_System\Restaurant Management System\obj\Debug\Restaurant Management System.csproj.CopyComplete
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\bin\Debug\Restaurant Management System.exe.config
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\bin\Debug\Restaurant Management System.exe
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\bin\Debug\Restaurant Management System.pdb
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\obj\Debug\Restaurant Management System.csproj.AssemblyReference.cache
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\obj\Debug\Restaurant_Management_System.FormLogin.resources
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\obj\Debug\Restaurant_Management_System.FormRegister.resources
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\obj\Debug\Restaurant_Management_System.frmMain.resources
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\obj\Debug\Restaurant_Management_System.Properties.Resources.resources
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\obj\Debug\Restaurant Management System.csproj.GenerateResource.cache
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\obj\Debug\Restaurant Management System.csproj.CoreCompileInputs.cache
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\obj\Debug\Restaurant Management System.csproj.CopyComplete
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\obj\Debug\Restaurant Management System.exe
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\obj\Debug\Restaurant Management System.pdb
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\obj\Debug\Restaurant_Management_System.frmPOS.resources
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\bin\Debug\Guna.UI2.dll
+C:\Users\Shushmitha\Desktop\RMS\MC_FOODS\Restaurant Management System\obj\Debug\Restaurant_Management_System.frmProducts.resources
