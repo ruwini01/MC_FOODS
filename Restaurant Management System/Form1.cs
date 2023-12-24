@@ -99,56 +99,57 @@ namespace Restaurant_Management_System
 
         private void buttonLogin_Click_1(object sender, EventArgs e)
         {
-            uname = textBoxUsername.Text;
+           
+        uname = textBoxUsername.Text;
 
-            String username, user_password;
+        String username, user_password;
 
-            username = textBoxUsername.Text;
-            user_password = textBoxPassword.Text;
+        username = textBoxUsername.Text;
+        user_password = textBoxPassword.Text;
 
-            try {
-                String query = "Select * from users where username = '" + username + "' AND password='" + user_password + "'";
-                SqlDataAdapter sda = new SqlDataAdapter(query, conn);
+        try {
+            String query = "Select * from users where username = '" + username + "' AND password='" + user_password + "'";
+            SqlDataAdapter sda = new SqlDataAdapter(query, conn);
 
-                DataTable dtable = new DataTable();
-                sda.Fill(dtable);
+            DataTable dtable = new DataTable();
+            sda.Fill(dtable);
 
-                if (dtable.Rows.Count > 0)
+            if (dtable.Rows.Count > 0)
+            {
+
+                username = textBoxUsername.Text;
+                user_password = textBoxPassword.Text;
+
+                //nextpage
+                if (frmmain == null || frmmain.IsDisposed)
                 {
-                    
-                    username = textBoxUsername.Text;
-                    user_password = textBoxPassword.Text;
-
-                    //nextpage
-                    if (frmmain == null || frmmain.IsDisposed)
-                    {
-                        frmmain = new frmMain(this);
-                    }
-                    frmmain.Show();
-                    this.Hide();
-
+                    frmmain = new frmMain(this);
                 }
+                frmmain.Show();
+                this.Hide();
 
-                else {
-                    MessageBox.Show("invalid Username or Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    textBoxUsername.Clear();
-                    textBoxPassword.Clear();
-
-                    textBoxUsername.Focus();
-                  
-                }
-            } 
-            catch {
-                MessageBox.Show("Error");
-            } 
-            finally {
-                conn.Close();
             }
 
-            
-            
-            
+            else {
+                MessageBox.Show("invalid Username or Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                textBoxUsername.Clear();
+                textBoxPassword.Clear();
+
+                textBoxUsername.Focus();
+
+            }
+        } 
+        catch {
+            MessageBox.Show("Error");
+        } 
+        finally {
+            conn.Close();
         }
+
+        
+
+
+    }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {

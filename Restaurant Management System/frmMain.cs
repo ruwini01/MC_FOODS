@@ -20,6 +20,14 @@ namespace Restaurant_Management_System
             InitializeComponent();
         }
 
+        public void AddControls(Form f)
+        {
+            CenterPanel.Controls.Clear();
+            f.Dock = DockStyle.Fill;
+            f.TopLevel = false;
+            CenterPanel.Controls.Add(f);
+            f.Show();
+        }
         public frmMain(FormLogin l)
         {
             login = l;
@@ -153,6 +161,26 @@ namespace Restaurant_Management_System
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnpos_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnProducts_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnpos_Click_1(object sender, EventArgs e)
+        {
+            AddControls(new frmPOS());
+        }
+
+        private void btnProducts_Click_1(object sender, EventArgs e)
+        {
+            AddControls(new frmProducts());
         }
     }
 }
